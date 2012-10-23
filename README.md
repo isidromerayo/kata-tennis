@@ -22,6 +22,13 @@ necesitas un comando :)
 
 $ composer(.phar) create-project isidromerayo/kata-tennis my_project_name
 
+Git
+---
+
+Antes de empezar, es recomendable borrar el directorio ".git" así son tendrás tus commits.
+
+$ rm -rf .git
+
 Actualizar paquetes
 ===================
 
