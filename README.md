@@ -42,7 +42,7 @@ Uso
 Crear los ejemplos o test en el directorio "tests".
 Crear tú código fuente en el directorio  "src".
 
-$ vendor/bin/phpunit -c tests/
+$ vendor/bin/phpunit tests/
 
 Si quiere generar la cobertura de código (needs install xdebug extension)
 
