@@ -8,15 +8,26 @@ http://codingdojo.org/cgi-bin/wiki.pl?KataTennis
 Instalación
 ===========
 
-composer (http://getcomposer.org/doc/00-intro.md#installation)
+composer
+--------
 
-$ curl -s http://getcomposer.org/installer | php
-$ php composer.phar install
+Esta configurado para utilizar composer, si no lo tienes instalado sigue
+las instrucciones de la web (http://getcomposer.org/doc/00-intro.md#installation).
 
-If you install composer globally (http://getcomposer.org/doc/00-intro.md#globally),
-you should be use packagist :) (http://packagist.org/)
+Si vas a utilizar composer en tús sistemas, recomiendo la instalación global,
+http://getcomposer.org/doc/00-intro.md#globally).
 
-$ composer create-project isidromerayo/kata-tennis my_project_name
+Usa packagist para distribuir tus fuentes PHP http://packagist.org/, así simplemente
+necesitas un comando :)
+
+$ composer(.phar) create-project isidromerayo/kata-tennis my_project_name
+
+Actualizar paquetes
+===================
+
+$ composer(.phar) update
+
+¿Fácil no?
 
 Uso
 ===
