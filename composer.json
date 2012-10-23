@@ -1,0 +1,27 @@
+{
+    "name": "isidromerayo/kata-tennis",
+    "description": "Kata tennis using skeleton PHP project",
+    "keywords": ["test","composer","Helper","TDD","PHPUnit","Mock/Stub","xUnit", "kata"],
+    "homepage": "http://www.solveet.com/exercises/Kata-Tennis/13",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isidro Merayo Castellano",
+            "homepage": "https://bitbucket.org/isidromerayo"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/class-loader": "2.1.x-dev",
+        "phpunit/phpunit": "3.7.x-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Katayuno": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "vendor/bin"
+    }
+}
