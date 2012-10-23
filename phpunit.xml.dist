@@ -6,7 +6,7 @@
          colors="true"
          verbose="true">
   <testsuites>
-    <testsuite name="skeleton_php_project">
+    <testsuite name="Kata Tennis">
       <directory suffix="Test.php">tests</directory>
     </testsuite>
   </testsuites>
