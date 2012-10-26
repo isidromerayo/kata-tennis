@@ -57,6 +57,17 @@ Si utilizas Netbeans PHP, necesitas configurar:
 * Project properties -> sources -> Test Folder: tests (Alt + F6 to run)
 * Project properties -> PHPUnit -> use bootstrap: XXX/tests/TestHelper.php
 
+Autotest
+========
+
+Es necesario instalar una gema de ruby, watchr
+
+$ sudo gem install watchr
+
+Para lanzar 
+
+$ watchr ./autotest_watchr.rb
+
 Travis-CI
 =========
 
