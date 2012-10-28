@@ -31,8 +31,8 @@ def notify title, msg, img, show_time
 end
 
 def notify_failed cmd, result
-  failed_examples = result.scan(/failure:\n\n(.*)\n/)
-  notify "#{cmd}", failed_examples[0], "gtk-stop.svg", 6000
+  failed_examples = result.scan(/failure:\n\n(.*)\n(.*)\n\n(.*)\n/)
+  notify "#{cmd}", failed_examples.inspect, "process-stop.svg", 6000
 end
 
 def clear_console

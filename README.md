@@ -55,12 +55,13 @@ $ ant phpunit
 Si utilizas Netbeans PHP, necesitas configurar:
 
 * Project properties -> sources -> Test Folder: tests (Alt + F6 to run)
-* Project properties -> PHPUnit -> use bootstrap: XXX/tests/TestHelper.php
+* Project properties -> PHPUnit -> use bootstrap: XXX/tests/TestHelper.php or Use XML configuration: phpunit.xml.dist
 
 Autotest
 ========
 
-Es necesario instalar una gema de ruby, watchr
+Es necesario instalar una gema de ruby, watchr.
+Por defecto utiliza los iconos utilizados son el tema "Humanity" (en Ubuntu)
 
 $ sudo gem install watchr
 
